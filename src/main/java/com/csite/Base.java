@@ -11,6 +11,7 @@ public class Base {
         if (driver == null) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+
             driver.manage().window().maximize();
         }
     }
