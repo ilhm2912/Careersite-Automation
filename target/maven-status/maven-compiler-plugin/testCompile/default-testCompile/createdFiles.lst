@@ -1,4 +1,4 @@
 stepDefinations/LoginSteps.class
 runner/TestRunner.class
-stepDefinations/Hooks.class
 com/csite/BaseTest.class
+stepDefinations/Hooks.class

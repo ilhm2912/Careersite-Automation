@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="5.786" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="11.838" tests="4" errors="3" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="webdriver.chrome.driver" value="/Users/ilham/.cache/selenium/chromedriver/mac-arm64/133.0.6943.98/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ID"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ilham/development/csite5.1/careersite/target/surefire/surefirebooter-20250219101824430_3.jar /Users/ilham/development/csite5.1/careersite/target/surefire 2025-02-19T10-18-24_378-jvmRun1 surefire-20250219101824430_1tmp surefire_0-20250219101824430_2tmp"/>
+    <property name="sun.java.command" value="/Users/ilham/development/csite5.1/careersite/target/surefire/surefirebooter-20250219144137779_3.jar /Users/ilham/development/csite5.1/careersite/target/surefire 2025-02-19T14-41-37_732-jvmRun1 surefire-20250219144137779_1tmp surefire_0-20250219144137779_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ilham/development/csite5.1/careersite/target/test-classes:/Users/ilham/development/csite5.1/careersite/target/classes:/Users/ilham/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/ilham/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/ilham/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/ilham/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar:/Users/ilham/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-java/4.28.1/selenium-java-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-api/4.28.1/selenium-api-4.28.1.jar:/Users/ilham/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v130/4.28.1/selenium-devtools-v130-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v131/4.28.1/selenium-devtools-v131-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v132/4.28.1/selenium-devtools-v132-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.28.1/selenium-devtools-v85-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.28.1/selenium-edge-driver-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.28.1/selenium-firefox-driver-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.28.1/selenium-ie-driver-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.28.1/selenium-safari-driver-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-support/4.28.1/selenium-support-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.28.1/selenium-remote-driver-4.28.1.jar:/Users/ilham/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ilham/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/Users/ilham/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ilham/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ilham/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ilham/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/Users/ilham/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/Users/ilham/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-api/1.46.0/opentelemetry-api-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-context/1.46.0/opentelemetry-context-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.46.0/opentelemetry-exporter-logging-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.46.0/opentelemetry-sdk-common-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.46.0/opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.46.0/opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.46.0-alpha/opentelemetry-api-incubator-1.46.0-alpha.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.46.0/opentelemetry-sdk-trace-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.46.0/opentelemetry-sdk-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.46.0/opentelemetry-sdk-metrics-1.46.0.jar:/Users/ilham/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.46.0/opentelemetry-sdk-logs-1.46.0.jar:/Users/ilham/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-http/4.28.1/selenium-http-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-json/4.28.1/selenium-json-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.28.1/selenium-manager-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-os/4.28.1/selenium-os-4.28.1.jar:/Users/ilham/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.28.1/selenium-chrome-driver-4.28.1.jar:/Users/ilham/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.28.1/selenium-chromium-driver-4.28.1.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-java/7.21.1/cucumber-java-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-core/7.21.1/cucumber-core-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-gherkin/7.21.1/cucumber-gherkin-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.21.1/cucumber-gherkin-messages-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/gherkin/31.0.0/gherkin-31.0.0.jar:/Users/ilham/.m2/repository/io/cucumber/messages/27.2.0/messages-27.2.0.jar:/Users/ilham/.m2/repository/io/cucumber/testng-xml-formatter/0.3.1/testng-xml-formatter-0.3.1.jar:/Users/ilham/.m2/repository/io/cucumber/query/13.2.0/query-13.2.0.jar:/Users/ilham/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/ilham/.m2/repository/io/cucumber/datatable/7.21.1/datatable-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-plugin/7.21.1/cucumber-plugin-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/docstring/7.21.1/docstring-7.21.1.jar:/Users/ilham/.m2/repository/io/cucumber/html-formatter/21.9.0/html-formatter-21.9.0.jar:/Users/ilham/.m2/repository/io/cucumber/junit-xml-formatter/0.7.1/junit-xml-formatter-0.7.1.jar:/Users/ilham/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-junit/7.21.1/cucumber-junit-7.21.1.jar:/Users/ilham/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ilham/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ilham/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.3/webdrivermanager-5.9.3.jar:/Users/ilham/.m2/repository/com/google/code/gson/gson/2.12.1/gson-2.12.1.jar:/Users/ilham/.m2/repository/com/github/docker-java/docker-java/3.4.1/docker-java-3.4.1.jar:/Users/ilham/.m2/repository/com/github/docker-java/docker-java-core/3.4.1/docker-java-core-3.4.1.jar:/Users/ilham/.m2/repository/com/github/docker-java/docker-java-api/3.4.1/docker-java-api-3.4.1.jar:/Users/ilham/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ilham/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ilham/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ilham/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ilham/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.1/docker-java-transport-httpclient5-3.4.1.jar:/Users/ilham/.m2/repository/com/github/docker-java/docker-java-transport/3.4.1/docker-java-transport-3.4.1.jar:/Users/ilham/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/ilham/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ilham/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar:/Users/ilham/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/ilham/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/ilham/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/ilham/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/ilham/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/ilham/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-suite/1.12.0-RC2/junit-platform-suite-1.12.0-RC2.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-suite-api/1.11.0/junit-platform-suite-api-1.11.0.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.11.0/junit-platform-suite-engine-1.11.0.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.11.0/junit-platform-suite-commons-1.11.0.jar:/Users/ilham/.m2/repository/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar:/Users/ilham/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.21.1/cucumber-junit-platform-engine-7.21.1.jar:/Users/ilham/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/ilham/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/Users/ilham/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/Users/ilham/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/ilham/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/ilham/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/ilham/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/ilham/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/ilham/development/csite5.1/careersite/target/surefire/surefirebooter-20250219101824430_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ilham/development/csite5.1/careersite/target/surefire/surefirebooter-20250219144137779_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1"/>
@@ -60,22 +60,154 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Successful Login" classname="Login Functionality" time="5.266">
+  <testcase name="Example #1.1" classname="Examples" time="7.14">
     <system-out><![CDATA[
-Scenario: Successful Login                                                &amp#27;[90m# features/Login.feature:6&amp#27;[0m
-10:18:25.404 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.9.3
-10:18:25.608 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=133 in cache (valid until 10:31:49 19/02/2025 WITA)
-10:18:25.608 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome133=133.0.6943.98 in cache (valid until 16:21:21 19/02/2025 WITA)
-10:18:25.608 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
-10:18:25.621 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 133.0.6943.98 found in cache
-10:18:25.622 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/ilham/.cache/selenium/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+@order1
+Scenario: Successful Login                                                &amp#27;[90m# features/Login.feature:14&amp#27;[0m
+14:41:38.795 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.9.3
+14:41:39.012 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=133 in cache (valid until 14:44:48 19/02/2025 WITA)
+14:41:39.013 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome133=133.0.6943.98 in cache (valid until 16:21:21 19/02/2025 WITA)
+14:41:39.013 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+14:41:39.032 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 133.0.6943.98 found in cache
+14:41:39.032 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/ilham/.cache/selenium/chromedriver/mac-arm64/133.0.6943.98/chromedriver
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the browser and website &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dev-testing.rekrut.site/"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginSteps.setup(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the login link&amp#27;[0m                                          &amp#27;[90m# stepDefinations.LoginSteps.i_click_on_the_login_link()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"erica@maildrop.cc"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345678"&amp#27;[0m                          &amp#27;[90m# stepDefinations.LoginSteps.i_enter_and(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see the home page&amp#27;[0m                                         &amp#27;[90m# stepDefinations.LoginSteps.i_should_see_the_home_page()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Feb 19, 2025 10:18:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 19, 2025 2:41:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
 ]]></system-err>
+  </testcase>
+  <testcase name="Successful user registration with personal details" classname="Register functionality" time="3.421">
+    <error message="column: 2, Width: 2" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: column: 2, Width: 2
+	at io.cucumber.datatable.DataTable.rangeCheckColumn(DataTable.java:411)
+	at io.cucumber.datatable.DataTable.cell(DataTable.java:395)
+	at stepDefinations.RegisterSteps.user_fills_section_with_valid_details(RegisterSteps.java:44)
+	at ✽.the user fills out the "Informasi Pribadi" section with valid details, including:(classpath:features/Register.feature:10)
+]]></error>
+    <system-out><![CDATA[
+@order2
+Scenario: Successful user registration with personal details                            &amp#27;[90m# features/Register.feature:8&amp#27;[0m
+14:41:45.881 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Using WebDriverManager 5.9.3
+14:41:45.886 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome=133 in cache (valid until 14:44:48 19/02/2025 WITA)
+14:41:45.886 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache -- Resolution chrome133=133.0.6943.98 in cache (valid until 16:21:21 19/02/2025 WITA)
+14:41:45.886 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+14:41:45.892 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager -- Driver chromedriver 133.0.6943.98 found in cache
+14:41:45.893 [main] INFO io.github.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/ilham/.cache/selenium/chromedriver/mac-arm64/133.0.6943.98/chromedriver
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the browser and navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dev-testing.rekrut.site/"&amp#27;[0m           &amp#27;[90m# stepDefinations.RegisterSteps.setup(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user is on the registration page&amp#27;[0m                                             &amp#27;[90m# stepDefinations.RegisterSteps.user_on_registration_page()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user fills out the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Informasi Pribadi"&amp#27;[0m&amp#27;[31m section with valid details, including:&amp#27;[0m &amp#27;[90m# stepDefinations.RegisterSteps.user_fills_section_with_valid_details(java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Field            | Value              |
+    | Nama Lengkap     | John Doe           |
+    | NIK              | 1812012912970005   |
+    | Jenis Kelamin    | Laki-laki          |
+    | Email            | john.doe@email.com |
+    | Nomor Telepon/WA | +62 81234567890    |
+    | Tanggal Lahir    | 01/01/1990         |
+    | Pilih Provinsi   | Bali               |
+    | Pilih Kota       | Denpasar           |
+    | Kata Sandi       | Password123        |
+    | Konfirmasi Sandi | Password123        |
+      &amp#27;[31mjava.lang.IndexOutOfBoundsException: column: 2, Width: 2
+      	at io.cucumber.datatable.DataTable.rangeCheckColumn(DataTable.java:411)
+      	at io.cucumber.datatable.DataTable.cell(DataTable.java:395)
+      	at stepDefinations.RegisterSteps.user_fills_section_with_valid_details(RegisterSteps.java:44)
+      	at ✽.the user fills out the "Informasi Pribadi" section with valid details, including:(classpath:features/Register.feature:10)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Lanjut"&amp#27;[0m&amp#27;[36m button&amp#27;[0m                                               &amp#27;[90m# stepDefinations.RegisterSteps.user_clicks_button(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Pendidikan"&amp#27;[0m&amp#27;[36m section&amp#27;[0m                                     &amp#27;[90m# stepDefinations.RegisterSteps.user_should_see_section(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Feb 19, 2025 2:41:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 132; Please update to a Selenium version that supports CDP version 133
+]]></system-err>
+  </testcase>
+  <testcase name="Successful user registration with education details" classname="Register functionality" time="0.392">
+    <error message="column: 2, Width: 2" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: column: 2, Width: 2
+	at io.cucumber.datatable.DataTable.rangeCheckColumn(DataTable.java:411)
+	at io.cucumber.datatable.DataTable.cell(DataTable.java:395)
+	at stepDefinations.RegisterSteps.user_fills_section_with_valid_details(RegisterSteps.java:58)
+	at ✽.the user fills out the "Pendidikan" section with valid details, including:(classpath:features/Register.feature:26)
+]]></error>
+    <system-out><![CDATA[
+@order2
+Scenario: Successful user registration with education details                     &amp#27;[90m# features/Register.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the browser and navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dev-testing.rekrut.site/"&amp#27;[0m     &amp#27;[90m# stepDefinations.RegisterSteps.setup(java.lang.String)&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mthe user fills out the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Pendidikan"&amp#27;[0m&amp#27;[31m section with valid details, including:&amp#27;[0m &amp#27;[90m# stepDefinations.RegisterSteps.user_fills_section_with_valid_details(java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Field       | Value              |
+    | Pendidikan  | S1                 |
+    | Jurusan     | Teknik Informatika |
+    | Universitas | Universitas X      |
+    | Tahun Masuk | 2010               |
+    | Tahun Lulus | 2014               |
+      &amp#27;[31mjava.lang.IndexOutOfBoundsException: column: 2, Width: 2
+      	at io.cucumber.datatable.DataTable.rangeCheckColumn(DataTable.java:411)
+      	at io.cucumber.datatable.DataTable.cell(DataTable.java:395)
+      	at stepDefinations.RegisterSteps.user_fills_section_with_valid_details(RegisterSteps.java:58)
+      	at ✽.the user fills out the "Pendidikan" section with valid details, including:(classpath:features/Register.feature:26)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user clicks the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Lanjut"&amp#27;[0m&amp#27;[36m button&amp#27;[0m                                         &amp#27;[90m# stepDefinations.RegisterSteps.user_clicks_button(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user should see the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Pengalaman kerja"&amp#27;[0m&amp#27;[36m section&amp#27;[0m                         &amp#27;[90m# stepDefinations.RegisterSteps.user_should_see_section(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful user registration with work experience details" classname="Register functionality" time="0.319">
+    <error message="The step &apos;the user is on the candidate registration page&apos; and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;the user is on the candidate registration page&quot;)&#10;public void the_user_is_on_the_candidate_registration_page() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user does not check {string}&quot;)&#10;public void the_user_does_not_check(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user fills out {string} with {string}&quot;)&#10;public void the_user_fills_out_with(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user agrees to the {string}&quot;)&#10;public void the_user_agrees_to_the(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the user submits the registration form&quot;)&#10;public void the_user_submits_the_registration_form() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'the user is on the candidate registration page' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the user is on the candidate registration page")
+public void the_user_is_on_the_candidate_registration_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user does not check {string}")
+public void the_user_does_not_check(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user fills out {string} with {string}")
+public void the_user_fills_out_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user agrees to the {string}")
+public void the_user_agrees_to_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the user submits the registration form")
+public void the_user_submits_the_registration_form() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:111)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:168)
+	at io.cucumber.junit.platform.engine.NodeDescriptor$PickleDescriptor.execute(NodeDescriptor.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></error>
+    <system-out><![CDATA[
+@order2
+Scenario: Successful user registration with work experience details                     &amp#27;[90m# features/Register.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the browser and navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dev-testing.rekrut.site/"&amp#27;[0m           &amp#27;[90m# stepDefinations.RegisterSteps.setup(java.lang.String)&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33mthe user is on the candidate registration page&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user fills out the &amp#27;[0m&amp#27;[36m&amp#27;[1m"Pengalaman Kerja"&amp#27;[0m&amp#27;[36m section with valid details, including:&amp#27;[0m &amp#27;[90m# stepDefinations.RegisterSteps.user_fills_section_with_valid_details(java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Field           | Value             |
+    | Nama Perusahaan | PT. Y             |
+    | Nama Posisi     | Software Engineer |
+    | Tanggal Mulai   | 01/01/2015        |
+    | Tanggal Selesai | 01/01/2017        |
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user does not check "Saya Masih Bekerja Disini"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user fills out "Gaji yang Diharapkan" with "10,000,000 IDR"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user agrees to the "Syarat dan Ketentuan"&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user submits the registration form&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user should be registered successfully&amp#27;[0m                                       &amp#27;[90m# stepDefinations.RegisterSteps.user_registered_successfully()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe user should see a confirmation message&amp#27;[0m                                        &amp#27;[90m# stepDefinations.RegisterSteps.user_see_confirmation_message()&amp#27;[0m
+]]></system-out>
   </testcase>
 </testsuite>

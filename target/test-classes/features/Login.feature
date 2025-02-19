@@ -1,3 +1,4 @@
+@order1
 Feature: Login Functionality
 
     Background: Open browser and website
@@ -5,5 +6,9 @@ Feature: Login Functionality
 
     Scenario: Successful Login
         When I click on the login link
-        And I enter "erica@maildrop.cc" and "12345678"
+        And I enter "<email>" and "<password>"
         Then I should see the home page
+
+        Examples:
+            | email             | password |
+            | erica@maildrop.cc | 12345678 |
