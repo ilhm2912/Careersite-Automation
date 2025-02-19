@@ -27,7 +27,8 @@ public class LoginPage {
 
     // Methods
     public void navigateToLoginPage() {
-        wait.until(ExpectedConditions.elementToBeClickable(signInLink)).click();
+        WebElement buttonLogin = wait.until(ExpectedConditions.visibilityOfElementLocated(signInLink));
+        buttonLogin.click();
     }
 
     public void enterEmail(String email) {
